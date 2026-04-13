@@ -1,0 +1,7 @@
+package ru.touragency.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.touragency.entity.Client;
+
+public interface ClientRepository extends JpaRepository<Client, Integer> {
+}
